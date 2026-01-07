@@ -7,7 +7,7 @@
 		
 		public static function connect(){
 			if(!isset($pdo)){
-				$pdo = new PDO('mysql:host=localhost:4306;dbname=reserva','root','');
+				$pdo = new PDO('CHANGE_ME',CHANGE_ME,'CHANGE_ME');
 			}
 
 			return $pdo;
